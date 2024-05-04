@@ -3,9 +3,12 @@
     padding: 0;
     text-align: center;
 }
+body{
+    background-color: #E2DFD0;
+}
 h1{
-    background-color: #081b31;
-    color: white;
+    background-color: #524C42;
+    color: #E2DFD0;
     height: 7rem;
     line-height: 7rem;
 }
@@ -26,7 +29,7 @@ h1{
 }
 .choice:hover {
     cursor: pointer;
-    background-color: #081b31;
+    background-color: #524C42;
 }
 .choice img{
     height: 150px;
@@ -50,34 +53,36 @@ h1{
     margin-top: 5rem;
 }
 #msg {
-    background-color: #081b31;
+    background-color: #524C42;
     color: white;
     font-size: 2rem;
     display: inline;
     padding: 1rem;
     border-radius: 1rem;
 }
+
 @media (max-width: 568px) {
     .choices {
         flex-direction: column;
     }
-
     .choice {
         height: 100px;
         width: 100px;
         margin: 1rem;
     }
-
+    .choice:hover {
+        cursor: pointer;
+        background-color: #524C42;
+        border: 2px solid #524C42;
+    }
     .score-board {
         flex-direction: column;
         gap: 10px;
     }
-
     #user-score,
     #comp-score {
         font-size: 2.5rem;
     }
-
     .msg-container {
         margin-top: 2.5rem; 
         margin-bottom: 2.5rem; 
@@ -88,3 +93,4 @@ h1{
         padding: 0.5rem; 
     }
 }
+
