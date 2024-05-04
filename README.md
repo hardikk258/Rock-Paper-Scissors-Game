@@ -1,19 +1,36 @@
-# Stone Paper Scissors Game
+Rock Paper Scissors Game
+This is a simple Rock Paper Scissors game created using HTML, CSS, and JavaScript. It allows users to play the classic game against the computer.
 
-This is a simple Stone Paper Scissors game created using HTML, CSS, and JavaScript. It allows users to play the classic game against the computer.
+Demo
+You can see a live demo of the game here:- https://rock-paper-scissors-op.vercel.app/
 
-## Demo
+Features
+Play Against Computer: Engage in a classic game of Rock Paper Scissors against an AI opponent.
+Responsive Design: Enjoy seamless gameplay on any device, from desktops to mobile phones.
+User-Friendly Interface: Intuitive controls and clear instructions make it easy for players of all ages to enjoy.
+How to Play
+Choose your move by clicking on the corresponding icon: Rock, Paper, or Scissors.
+The computer will randomly select its move.
+The winner is determined based on the classic rules of the game:
+Rock crushes Scissors
+Scissors cuts Paper
+Paper covers Rock
 
-You can see a live demo of the game here:- https://stone-paper-scissors-game-eight.vercel.app/
+Technologies Used
+HTML: Provides the structure and content of the game interface.
+CSS: Styles the game elements for an attractive and engaging user experience.
+JavaScript: Implements the game logic, including player interactions and computer AI.
+Installation
+To run the game locally, follow these steps:
 
-## Features
+Clone this repository to your local machine.
+Open the index.html file in your web browser.
+Future Improvements
+Implement a scoring system to keep track of wins, losses, and ties.
+Add animations and sound effects for a more immersive gaming experience.
+Allow players to choose the difficulty level of the computer opponent.
+Contributing
+Contributions are welcome! Feel free to submit bug fixes, feature requests, or other improvements via pull requests.
 
-- Play Rock Paper Scissors against the computer.
-- Responsive design: Works well on both desktop and mobile devices.
-- Easy to understand and play.
-
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
+License
+This project is licensed under the MIT License.
