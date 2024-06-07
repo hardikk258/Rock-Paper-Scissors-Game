@@ -1,5 +1,7 @@
 # Rock Paper Scissors Game
 
+![Rock Paper Scissors Game](https://github.com/hardikk258/Rock-Paper-Scissors-Game/blob/main/images/rockpaperscissors.png)
+
 This is a simple Rock Paper Scissors game created using HTML, CSS, and JavaScript. It allows users to play the classic game against the computer.
 
 ## Demo
